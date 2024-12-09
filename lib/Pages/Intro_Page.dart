@@ -31,8 +31,13 @@ class IntroPage extends StatelessWidget {
               ),
               SizedBox(height: 20),
               // Bouton pour naviguer ou effectuer une action
-              ElevatedButton(
+ ElevatedButton(
                 onPressed: () {
+                                          Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => Manage_Page()),
+                        );
                   // Action à effectuer lors de l'appui sur le bouton
                   // Par exemple, naviguer vers une autre page (à adapter selon l'app)
                   print('Bouton appuyé!');
