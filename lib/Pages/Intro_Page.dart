@@ -36,7 +36,7 @@ class IntroPage extends StatelessWidget {
                                           Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => Manage_Page()),
+                              builder: (context) =>  ()),
                         );
                   // Action à effectuer lors de l'appui sur le bouton
                   // Par exemple, naviguer vers une autre page (à adapter selon l'app)
